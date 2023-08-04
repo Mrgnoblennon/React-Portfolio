@@ -1,4 +1,4 @@
-// src/components/Portfolio.js
+// Portfolio.js
 import React from 'react';
 import Project from './Project';
 
