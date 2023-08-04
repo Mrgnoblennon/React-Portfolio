@@ -4,8 +4,10 @@ import Navigation from './Navigation';
 
 function Header() {
   return (
-    <header>
-      <Navigation />
+    <header id="header">
+      <nav>
+        <Navigation /> {Navigation}
+      </nav>
     </header>
   );
 }
