@@ -1,5 +1,6 @@
 // About.js
 import React from 'react';
+import myPhoto from '../man.png'
 
 function About() {
   return (

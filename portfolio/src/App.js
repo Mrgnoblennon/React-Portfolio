@@ -10,7 +10,6 @@ import './styles/global.css';
 
 function App() {
   return (
-    <Router>
       <div>
         <Header />
         <Routes>
@@ -20,8 +19,7 @@ function App() {
           <Route path="/resume" component={Resume} />
         </Routes>
         <Footer />
-      </div>
-    </Router>
+      </div> 
   );
 }
 
