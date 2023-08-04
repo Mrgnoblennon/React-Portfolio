@@ -1,7 +1,17 @@
-// Contact.js
-import React from 'react';
+import React, { useState } from 'react';
 
 function Contact() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [formSubmitted, setFormSubmitted] = useState(false);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Add your form submission logic here
+    setFormSubmitted(true);
+  };
+
   return (
     <section id="contact">
       <h2>Contact Me</h2>
