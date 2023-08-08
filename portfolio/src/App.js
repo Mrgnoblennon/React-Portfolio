@@ -6,6 +6,7 @@ import Portfolio from './components/portfolio';
 import Contact from './components/contact';
 import Resume from './components/resume';
 import Footer from './components/footer';
+import Home from './components/home';
 import './styles/global.css';
 
 function App() {
@@ -13,10 +14,11 @@ function App() {
       <div>
         <Header />
         <Routes>
-          <Route exact path="/" component={About} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/resume" component={Resume} />
+          <Route path="/" element={<Home/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/portfolio" element={<Portfolio/>} />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="/resume" element={<Resume/>} />
         </Routes>
         <Footer />
       </div> 

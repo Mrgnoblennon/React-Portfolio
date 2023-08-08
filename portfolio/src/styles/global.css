@@ -17,11 +17,12 @@ code {
   height: 80px;
 }
 
-.navbar-item {
-  color :green; 
-}
-
 #header {
   background-color: #faaf4c;
 }
 
+.custom-box {
+  max-width: 400px; /* Adjust the maximum width as needed */
+  margin-left: 0; /* Align the box to the left */
+  margin-top: 60px;
+}

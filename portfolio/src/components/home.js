@@ -1,13 +1,13 @@
 import React from 'react';
 
-function Portfolio() {
+function Home() {
   return (
     <div class="container">
       <div class="box has-background-primary custom-box">
-        <p class="title is-1">Portfolio</p>
+        <p class="title is-1">Home</p>
       </div>
     </div>
   );
 }
 
-export default Portfolio;
+export default Home;

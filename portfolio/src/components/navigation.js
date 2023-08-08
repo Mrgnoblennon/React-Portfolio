@@ -1,15 +1,16 @@
 // Navigation.js
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logoSvg from '../logo.svg'
 
 function Navigation() {
   return (
     
-  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" id="nav">
+  <nav class="navbar" role="navigation" aria-label="main navigation" id="nav">
   
   <div class="navbar-brand">
-    <a class="navbar-item" href="https://bulma.io">
-      <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"></img>
+    <a class="navbar-item">
+      <img src="../logo192.png" alt="react logo"></img>
     </a>
 
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -23,21 +24,25 @@ function Navigation() {
 
     <div class="navbar-start">
 
-      <a class="navbar-item">
+      <Link to="/" class="navbar-item">
         Home
-      </a>
+      </Link>
 
-      <a class="navbar-item">
+      <Link to="/about" class="navbar-item">
+        About
+      </Link>
+
+      <Link to="/portfolio" class="navbar-item">
         Portfolio
-      </a>
+      </Link>
 
-      <a class="navbar-item">
+      <Link to="/contact"class="navbar-item">
         Contact
-      </a>
+      </Link>
 
-      <a class="navbar-item">
+      <Link to="/resume" class="navbar-item">
         Resume
-      </a>
+      </Link>
 
     </div>
 
