@@ -49,8 +49,8 @@ function Navigation() {
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-primary">
-            <strong>GitHub</strong>
+          <a class="button" id="purple">
+            <strong id="text-white">GitHub</strong>
           </a>
         </div>
       </div>

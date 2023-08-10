@@ -2,11 +2,14 @@ import React from 'react';
 
 function Home() {
   return (
-    <div class="container">
-      <div class="box has-background-primary custom-box">
-        <p class="title is-1">Home</p>
+    <section className="hero is-fullheight" id="orange">
+      <div className="hero-body">
+       
+            <p className="title is-1">Welcome</p>
+    
+    
       </div>
-    </div>
+    </section>
   );
 }
 

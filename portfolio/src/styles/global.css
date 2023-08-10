@@ -17,12 +17,37 @@ code {
   height: 80px;
 }
 
-#header {
+#text-white {
+  color: #f7eee0;
+}
+
+#orange {
   background-color: #faaf4c;
 }
 
+#pink {
+  background-color: #ff8c79;
+}
+
+#purple {
+  background-color: #7382c3;
+}
 .custom-box {
   max-width: 400px; /* Adjust the maximum width as needed */
   margin-left: 0; /* Align the box to the left */
   margin-top: 60px;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.box2 {
+  background-image: url('../PW\ Generator.png');
 }
