@@ -1,6 +1,6 @@
 // About.js
 import React from 'react';
-import myPhoto from '../man.png'
+import myPhoto from '../assets/man.png'
 
 function About() {
   return (
