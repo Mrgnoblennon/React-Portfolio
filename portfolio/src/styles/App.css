@@ -13,15 +13,6 @@
   }
 }
 
-@font-face {
-  font-family: 'Cubano';
-  src: url('../fonts/cubano.woff2') format('woff2'),
-       url('../fonts/cubano.woff') format('woff');
-  /* Add other font formats here if needed */
-  font-weight: normal;
-  font-style: normal;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

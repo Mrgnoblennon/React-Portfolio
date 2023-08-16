@@ -29,6 +29,10 @@ code {
   background-color: #ff8c79;
 }
 
+#text-pink {
+  color: #ff8c79;
+}
+
 #purple {
   background-color: #7382c3;
 }
@@ -61,7 +65,7 @@ code {
   transform: translate(-50%, -50%);
   opacity: 0;
   visibility: hidden;
-  color: white;
+  color: #4cfae1;
   padding: 10px;
   border-radius: 5px;
   text-align: center;
@@ -77,7 +81,7 @@ code {
   width: 100%;
   height: 400px;
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
   opacity: 1;
   visibility: visible;
   transition: opacity 0.3s ease, visibility 0.3s ease;

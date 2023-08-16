@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Cubano';
+    src: url('../fonts/Cubano/Cubano.ttf') format('truetype');
+    /* You can also include additional formats like woff, woff2 if needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+body {
+  font-family: 'Cubano', sans-serif;
+}  
